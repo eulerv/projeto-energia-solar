@@ -12,7 +12,7 @@ export default function HomeDiv3() {
         whileInView={{ opacity: 1, x: 0, y: 0, filter: "blur(0px)" }}
       >
         <h1 className="pb-6 text-4xl font-bold md:text-6xl 2xl:text-6xl">
-          Calcule seu potencial #solar ->
+          Calcule seu potencial #solar ----
         </h1>
         <p className="mb-6">
           Nesse bloco colocamos os requisitos para calcular o consumo médio mensal da residência
