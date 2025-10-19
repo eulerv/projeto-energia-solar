@@ -15,7 +15,7 @@ export default function HomeDiv3() {
       >
         <div>
           <h2 className="pb-2 text-xl font-semibold">
-            Agora você pode clicar aqui para ir até a aba de
+            Exemplo de botão de
           </h2>
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-6 font-aleo">
             <div className="flex flex-col w-full text-left">
@@ -31,12 +31,10 @@ export default function HomeDiv3() {
             </div>
           </div>
           <p className="my-6 font-aleo">
-            Assim podemos conversar via e-mail/Whatsapp/Linkedin. Também tem os
-            ícones no topo da página, do Linkedin e Github.
-            <br />
-            E segue aqui abaixo o meu currículo disponível para download no
-            Drive:
-            <br /> <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             <br />
           </p>
         </div>
@@ -46,20 +44,7 @@ export default function HomeDiv3() {
           bg-gradient-to-r from-red-700 to-quinary
           rounded-lg blur"
           ></div>
-          <button
-            className="bg-black w-full opacity-95 rounded-lg leading-none
-           border border-slate-900 px-7 py-4
-           flex items-center justify-center divide-x divide-gray-600
-           "
-          >
-            <a
-              className="text-gray-100 font-aleo flex items-center space-x-5 pr-6"
-              href="https://drive.google.com/file/d/1osYB18sHrNCABuNV-YZhr9GeVETp8Bge/view?usp=sharing"
-              target="_blank"
-            >
-              Clique para fazer o download do meu currículo atualizado
-            </a>
-          </button>
+
         </div>
       </motion.div>
     </div>

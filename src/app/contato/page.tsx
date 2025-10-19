@@ -12,7 +12,7 @@ export default function Home() {
 
   const handleCopyEmail = () => {
     navigator.clipboard
-      .writeText('euler.vicente@hotmail.com')
+      .writeText('xxxxxxxxxxxxxxxx@hotmail.com')
       .then(() => {
         setShowCopyNotification(true);
         setTimeout(() => {
@@ -43,27 +43,27 @@ export default function Home() {
           onClick={handleCopyEmail}
           title="Copiar email"
           >
-            euler.vicente@hotmail.com
+            xxxxxxxxxx@hotmail.com
               <CopyIcon size={48} className="flex-shrink-0 text-white hover:text-emerald-500 bg-opacity-60"/>
           </button>
-          <h2 className="pb-2 text-xl font-semibold">Meu Linkedin é:</h2>
+          <h2 className="pb-2 text-xl font-semibold">Segundo contato é:</h2>
           <a
             className="flex flex-row items-center pb-6 text-4xl font-bold md:text-6xl 2xl:text-6xl hover:text-emerald-500 bg-opacity-60"
-            href="https://www.linkedin.com/in/vicenteeuler/"
+            href="https://www.google.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            linkedin.com/in/vicenteeuler
+            google.com.br/images
             <ExternalLink size={48} className="flex-shrink-0 ml-4" />
           </a>
-          <h2 className="pb-2 text-xl font-semibold">E meu github é:</h2>
+          <h2 className="pb-2 text-xl font-semibold">E o terceiro contato é:</h2>
           <a
             className="flex flex-row pb-6 text-4xl font-bold md:text-6xl 2xl:text-6xl hover:text-emerald-500 bg-opacity-60"
-            href="https://github.com/eulerv"
+            href="https://globo.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            github.com/eulerv
+            globo.com
             <ExternalLink size={48} className="flex-shrink-0 ml-4" />
           </a>
           <h2 className="pb-2 text-xl font-semibold">Cheers!</h2>

@@ -15,17 +15,17 @@ export default function HomeDiv2() {
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* Imagem de fundo que cobre toda a área sem distorção */}
       <div className="absolute inset-0">
-        {/* <motion.img 
+        <motion.img 
           className="w-full h-full object-cover" 
-          src="/photo-1668097613572.avif" 
+          src="/pessoa-perto-de-usina-de-energia.jpg" 
           alt="Vantagens da Energia Solar"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 2, ease: "easeInOut" }}
-        /> */}
+        />
         {/* Overlay escuro para garantir legibilidade do conteúdo */}
         <motion.div 
-          className="absolute inset-0 bg-black bg-opacity-60"
+          className="absolute inset-0 bg-opacity-60"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 2.5, ease: "easeInOut" }}
@@ -77,7 +77,7 @@ export default function HomeDiv2() {
             }}
           >
             <div className="relative">
-              <div className="absolute inset-0 translate-x-1 translate-y-1 rounded-[30px] bg-black"></div>
+              <div className="absolute inset-0 translate-x-1 translate-y-1 rounded-[30px]"></div>
               <div className="relative rounded-[30px] bg-orange-50 bg-opacity-90 p-8 shadow-lg hover:-translate-x-[3px] hover:-translate-y-[3px]">
                 <DollarSign className="w-8 h-8 text-orange-600" />
                 <h3 className="mb-4 mt-2 text-base font-semibold">Economia Significativa</h3>
