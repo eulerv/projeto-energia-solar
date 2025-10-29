@@ -1,7 +1,6 @@
 "use client";
 
 import Footer from "./layout/footer";
-import Gradients from "./layout/home/gradients";
 import HomeDiv1 from "./layout/home/homeDiv1";
 import HomeDiv2 from "./layout/home/homeDiv2";
 import HomeDiv3 from "./layout/home/homeDiv3";
@@ -14,9 +13,6 @@ export default function Home() {
     <div className="relative w-full overflow-hidden scroll-smooth">
       <div className="absolute items-top w-full">
         <Navbar />
-      </div>
-      <div className="absolute z-[-1] min-w-full">
-        <Gradients />
       </div>
       <div className="flex flex-col">
         <ScrollToTopButton />

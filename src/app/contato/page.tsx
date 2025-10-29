@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { CopyIcon, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import Footer from "../layout/footer";
-import GradientsOnePage from "../layout/home/gradientsOnePage";
 import Navbar from "../layout/navbar/navbar";
 
 export default function Home() {
@@ -26,9 +25,7 @@ export default function Home() {
     return (
     <div className="w-full overflow-hidden">
       <Navbar />
-      <div className="absolute z-[-1] min-w-full">
-        <GradientsOnePage />
-      </div>
+
       <div className="min-h-screen overflow-hidden px-2 lg:px-20 flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-8 text-white">
         <motion.div
           className="lg:w-4/6 lg:mt-0 mt-6 lg:mx-auto mx-8 p-4 lg:p-10

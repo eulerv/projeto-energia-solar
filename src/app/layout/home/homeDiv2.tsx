@@ -17,7 +17,8 @@ export default function HomeDiv2() {
       <div className="absolute inset-0">
         <motion.img 
           className="w-full h-full object-cover" 
-          src="/pessoa-perto-de-usina-de-energia.jpg" 
+          // src="/pessoa-perto-de-usina-de-energia.jpg"
+          src="/imagem3.avif"
           alt="Vantagens da Energia Solar"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
