@@ -1,5 +1,3 @@
-"use client";
-
 import { motion } from "framer-motion";
 import { Calculator, Clock, Leaf, Trees, TrendingUp, Zap } from "lucide-react";
 import { useState } from "react";
