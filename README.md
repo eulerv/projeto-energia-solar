@@ -48,3 +48,13 @@ Siga os passos abaixo para rodar o projeto em seu ambiente de desenvolvimento.
 1.  **Clone o repositório:**
     ```bash
     git clone https://github.com/eulerv/projeto-energia-solar.git
+    
+## 🤝 Contribuição
+
+Este é um projeto acadêmico, mas contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou sugerir melhorias, ou enviar um pull request com suas alterações.
+📄 Licença
+
+Este projeto está sob a licença MIT.
+## 🙏 Agradecimentos
+
+Agradecimento especial à faculdade e aos professores pela oportunidade de desenvolver este trabalho e a todos que contribuíram com ideias e feedbacks.
